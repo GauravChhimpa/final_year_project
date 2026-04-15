@@ -5,12 +5,12 @@ import { CalendarIcon, ClockIcon } from 'lucide-react'
 const HeroSection = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-4 px-6 md:px-16 bg-[url("/backgroundImage.png")] bg-cover bg-center h-screen'>
-        <img src={assets.marvelLogo} alt="" className='max-h-11 lg:h-11 mt-20'/>
+        <img src={assets.marvelLogo} alt="Marvel Logo" className='h-16 lg:h-20 mt-20 object-contain'/>
 
         <h1 className='text-5xl md:text-[70px] md:leading-18 font-semibold max-w-110'>Guardians <br /> of the Galaxy
         </h1>
 
-        <div className='flex itmes-center gap-4 text-gray-300'>
+        <div className='flex items-center gap-4 text-gray-300'>
             <span>Action | Adventure | Sci-Fi</span>
             <div className='flex items-center gap-1'>
                 <CalendarIcon className='w-4.5 h-4.5' /> 2018
